@@ -129,21 +129,21 @@ const ProfilePage = () => {
                             {[
                                 {
                                     role: "Senior iOS Developer",
-                                    company: "Tech Company Inc.",
+                                    company: "Everald",
                                     period: "2021 - Present",
-                                    desc: "Leading the mobile development team, architecting scalable iOS apps using Swift and SwiftUI. Implemented CI/CD pipelines and mentored junior developers."
+                                    desc: "Leading the mobile development team, architecting scalable iOS apps using Swift and SwiftUI. Spearheaded the development of a comprehensive School Management System and HealthTech solutions."
                                 },
                                 {
                                     role: "AI Research Assistant",
                                     company: "University Lab",
                                     period: "2019 - 2021",
-                                    desc: "Conducted research on computer vision and machine learning models for healthcare applications. Published papers on deep learning optimization."
+                                    desc: "Conducted research on computer vision and machine learning models for healthcare applications. Developed AI-driven features for mobile platforms."
                                 },
                                 {
                                     role: "Freelance Mobile Developer",
                                     company: "Self-Employed",
                                     period: "2017 - 2019",
-                                    desc: "Developed custom mobile solutions for various clients, focusing on user experience and performance optimization."
+                                    desc: "Developed custom mobile solutions for various clients, including e-commerce apps and productivity tools, focusing on user experience and performance."
                                 }
                             ].map((job, index) => (
                                 <motion.div

@@ -24,26 +24,26 @@ const LandingPage = () => {
 
     const projects = [
         {
-            title: "E-Learning Platform",
-            description: "A comprehensive mobile learning management system with real-time video classes and progress tracking.",
-            longDescription: "This project involved building a scalable mobile LMS from scratch. Key features include real-time video conferencing using WebRTC, offline content access, and detailed analytics for students and teachers. The app was built with SwiftUI for iOS and uses Firebase for the backend.",
-            tags: ['iOS', 'SwiftUI', 'Firebase', 'WebRTC'],
+            title: "School Management System",
+            description: "A comprehensive mobile platform for educational institutions, streamlining administration and learning.",
+            longDescription: "A robust mobile solution designed for schools to manage attendance, grades, and communication. Features include real-time notifications, digital classrooms, and parent-teacher portals. Built with SwiftUI and integrated with a scalable cloud backend.",
+            tags: ['iOS', 'SwiftUI', 'Cloud Architecture', 'EdTech'],
             github: "#",
-            image: null // Add image path if available
+            image: null
         },
         {
-            title: "HealthTech Dashboard",
-            description: "Web-based analytics dashboard for healthcare providers to monitor patient vitals and trends.",
-            longDescription: "A complex dashboard designed for healthcare professionals. It visualizes large datasets of patient vitals in real-time. Built with React and D3.js for high-performance charting, and Node.js for the secure backend API.",
-            tags: ['React', 'Node.js', 'D3.js', 'MongoDB'],
+            title: "HealthTech Solutions",
+            description: "Integrated healthcare platform for patient monitoring and telemedicine.",
+            longDescription: "An advanced HealthTech ecosystem allowing remote patient monitoring and secure telemedicine consultations. Implements strict data privacy standards and integrates with wearable devices for real-time vital tracking.",
+            tags: ['iOS', 'HealthKit', 'Telemedicine', 'Secure API'],
             link: "#",
             image: null
         },
         {
-            title: "AI Image Enhancer",
-            description: "Mobile application utilizing CoreML to enhance low-resolution images on device.",
-            longDescription: "An iOS application that uses custom CoreML models to upscale and denoise images directly on the user's device. It ensures privacy by processing everything locally and achieves near real-time performance on modern iPhones.",
-            tags: ['iOS', 'CoreML', 'Python', 'Metal'],
+            title: "AI-Driven Mobile Apps",
+            description: "Next-gen mobile applications leveraging on-device machine learning for smart features.",
+            longDescription: "A suite of experimental and production apps utilizing CoreML and TensorFlow Lite. Projects include real-time object detection, personalized recommendation engines, and automated content generation tools.",
+            tags: ['CoreML', 'TensorFlow Lite', 'Computer Vision', 'NLP'],
             github: "#",
             image: null
         }
